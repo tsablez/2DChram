@@ -49,14 +49,13 @@ li:hover {
     color: rgb(125, 168, 40);
     font-weight: bolder;
 }
-.versionBuild {
-    opacity: 0.3;
-    text-align: center;
-}
 .lessonShowHide {
     display: none;
 }
 .changeTheme {
     background-color: rgb(222, 222, 222);
     color: black;
+}
+.fullscreen {
+    width: 100%;
 }
