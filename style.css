@@ -1,0 +1,62 @@
+html {
+    user-select: none;
+    background-color: rgb(45, 45, 45);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 120%;
+}
+button {
+    font-size: 120%;
+    width: 100%;
+    height: 75px;
+    border: none;
+    border-radius: 50px;
+    background-color: yellowgreen;
+}
+button:hover {
+    transition: 0.05s;
+    background-color: white;
+    cursor: pointer;
+}
+ul:hover {
+    cursor: pointer;
+}
+li:hover {
+    transition: 0.1s;
+    /*color: rgb(125, 168, 40);*/
+    font-weight: bold;
+}
+.title-name {
+    display: inline-flex;
+    width: 100%;
+}
+.empty-place {
+    opacity: 0;
+}
+.mainShowHide {
+    display: none;
+}
+.listShowHide {
+    display: none;
+}
+.buttonShowHide {
+    display: none;
+}
+.themesShowHide {
+    display: none;
+}
+.themeSelected {
+    color: rgb(125, 168, 40);
+    font-weight: bolder;
+}
+.versionBuild {
+    opacity: 0.3;
+    text-align: center;
+}
+.lessonShowHide {
+    display: none;
+}
+.changeTheme {
+    background-color: rgb(222, 222, 222);
+    color: black;
+}
