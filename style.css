@@ -11,14 +11,10 @@ button {
     border: none;
     border-radius: 50px;
     background-color: yellowgreen;
+    cursor: pointer;
 }
 .button-open {
     background-color: white;
-}
-button:hover {
-    transition: 0.05s;
-    background-color: white;
-    cursor: pointer;
 }
 ul:hover {
     user-select: none;
