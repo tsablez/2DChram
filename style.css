@@ -3,7 +3,6 @@ html {
     background-color: rgb(45, 45, 45);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 120%;
 }
 button {
     font-size: 120%;
@@ -13,13 +12,20 @@ button {
     border-radius: 50px;
     background-color: yellowgreen;
 }
+.button-open {
+    background-color: white;
+}
 button:hover {
     transition: 0.05s;
     background-color: white;
     cursor: pointer;
 }
 ul:hover {
+    user-select: none;
     cursor: pointer;
+}
+li {
+    line-height: 1.8;
 }
 li:hover {
     transition: 0.1s;
