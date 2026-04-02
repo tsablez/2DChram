@@ -6,12 +6,14 @@
         <link rel="icon" type="image/png" href="https://github.com/user-attachments/assets/16bf7d67-4db4-4617-b812-00a94221d84a">
         <link rel="stylesheet" href="style.css">
         <script src="main.js"></script>
+        <script src="Modules/secretModule.js"></script>
         <script src="Modules/btnCtrlModule.js"></script>
         <title>2D Храм</title>
     </head>
-<body id="main">
+<body id="main" style="user-select: none;">
     <div class="">
     <div class="header">
+        <button style="text-align: center;" onclick="secret1()">Тестовая кнопка. Не нажимать.</button>
         <div class="title-name">
             <img src="https://github.com/user-attachments/assets/224d5fe2-303b-453f-b93f-36ed60852b69" style="height: 75px;">
             <hr>
@@ -25,7 +27,7 @@
     <hr style="width: 10%; opacity: 0.3;">
     <div id="mathem">
         <script src="Modules/mathCtrlModule.js"></script>
-        <button onclick="math()" id="mathButton">Математика</button>
+        <button onclick="math()" id="mathButton" class="mainButton">Математика</button>
         <hr class="empty-place">
         <ul class="listShowHide" id="mathList"> <!--Список тем по математике-->
             <li id="planimetriya" onclick="planimetriyaThemes()">1. Планиметрия</li>
@@ -167,7 +169,7 @@
         </ul>
     </div>
     <div id="info">
-        <button onclick="info()" id="infoButton">Информатика</button>
+        <button onclick="info()" id="infoButton" class="mainButton">Информатика</button>
         <hr class="empty-place">
         <ul class="listShowHide" id="infoList"> <!--Список тем по информатике-->
             <li>1. Анализ информационных моделей</li>
@@ -200,7 +202,7 @@
         </ul>
     </div>
     <div id="rus">
-        <button onclick="rus()" id="rusButton">Русский язык</button>
+        <button onclick="rus()" id="rusButton" class="mainButton">Русский язык</button>
         <hr class="empty-place">
         <ul class="listShowHide" id="rusList"> <!--список тем по русскому языку-->
             <li>1. Средства связи предложений в тексте</li>
